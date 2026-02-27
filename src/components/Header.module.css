@@ -1,0 +1,56 @@
+.header {
+    height: 56px;
+    background-color: #1B8C3E;
+    color: #ffffff;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 1.5rem;
+    box-sizing: border-box;
+}
+
+/* Left section (menu + title) */
+.left {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+/* Menu button */
+.menuBtn {
+    background: none;
+    border: none;
+    color: #ffffff;
+    font-size: 1.4rem;
+    cursor: pointer;
+    padding: 0.25rem 0.5rem;
+    transition: opacity 0.2s ease;
+}
+
+.menuBtn:hover {
+    opacity: 0.8;
+}
+
+/* Logo / Title */
+.logo {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+/* Avatar */
+.avatar {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.2);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: 600;
+    font-size: 0.9rem;
+}
