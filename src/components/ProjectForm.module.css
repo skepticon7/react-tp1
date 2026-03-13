@@ -1,0 +1,55 @@
+.form {
+    display: flex;
+    gap: 1rem;
+}
+
+.input {
+    padding: 0.5rem 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.input:focus {
+    border-color: #2f7d2f;
+}
+
+/* Sélecteur de couleur */
+.colorPicker {
+    width: 40px;
+    height: 36px;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.submit {
+    background-color: #2f7d2f;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s;
+}
+
+.submit:hover {
+    background-color: #256a25;
+}
+
+/* Bouton cancel */
+.cancel {
+    background-color: #ccc;
+    color: #000;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cancel:hover {
+    background-color: #999;
+}

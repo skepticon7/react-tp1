@@ -1,12 +1,21 @@
 import styles from './Login.module.css'
 import {useAuth} from "./AuthContext.tsx";
-import {useState} from "react";
+import {useEffect, useState} from "react";
+import {useLocation, useNavigate} from "react-router-dom";
 
 
 export default function Login() {
+    const navigate = useNavigate();
+    const location = useLocation();
     const {state , dispatch} = useAuth();
     const [email , setEmail] = useState('');
     const [password, setPassword] = useState('');
+
+    const from = (location.state as any)?.from || '/dashboard';
+
+    useEffect(() => {
+        if(state.user) navigate(from);
+    } , [state.user , navigate , location , from])
 
     async function handleSubmit(e : React.FormEvent) {
         e.preventDefault();
