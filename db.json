@@ -1,28 +1,18 @@
 {
   "projects": [
     {
-      "id": "2",
-      "name": "App Mobile",
-      "color": "#3498db"
-    },
-    {
       "id": "4",
-      "name": "Devops UI",
+      "name": "Devops UI sds",
       "color": "#000"
     },
     {
-      "id": "cb2d",
-      "name": "dev",
+      "id": "a8c5",
+      "name": "devv",
       "color": "#3498db"
     },
     {
-      "id": "9cc0",
-      "name": "hellp",
-      "color": "#3498db"
-    },
-    {
-      "id": "0faf",
-      "name": "test",
+      "id": "8fff",
+      "name": "dev mobile",
       "color": "#3498db"
     }
   ],
